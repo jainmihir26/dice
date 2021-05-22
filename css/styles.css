@@ -1,0 +1,34 @@
+body {
+  background-color: #393e46;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #4ecca3;
+  font-size: 2rem;
+}
+
+h1 {
+  font-family: "Pattaya", sans-serif;
+  font-size: 10rem;
+}
+
+.second {
+  padding: 3% 25%;
+}
+
+@media screen and (min-width: 360px) and (max-width: 670px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .second{
+      padding: 10% 0;
+  }
+}
